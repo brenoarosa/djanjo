@@ -13,9 +13,10 @@ pip install -r requirements.txt
 ### Django Configs
 
 A custom setting system based on http://justcramer.com/2011/01/13/settings-in-django/  
-This enable us to easily maintain multiple environments (e.g.: dev, stage, production, etc)
+This enable us to easily maintain multiple environments (e.g.: dev, stage, production, etc)  
+Environments can set by env var: DJANGO_DEPLOY_ENV (e.g.: `export DJANGO_DEPLOY_ENV=prod` will load prod.py)
 
-All configurations will be loaded from siteconfig/{env}.py and heavely inheriting from siteconfig/defaults.py
+All configurations will be loaded from siteconfig/{env}.py heavely inheriting from siteconfig/defaults.py
 
 ### Starting project
 
