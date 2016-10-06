@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ### Django Configs
 
-A custom setting system based on http://justcramer.com/2011/01/13/settings-in-django/  
+A custom setting system based on http://justcramer.com/2011/01/13/settings-in-django/ [(Archived version)](http://web.archive.org/web/20160326133259/http://cramer.io/2011/01/13/settings-in-django)  
 This enable us to easily maintain multiple environments (e.g.: dev, stage, production, etc)  
 Environments can set by env var: DJANGO_DEPLOY_ENV (e.g.: `export DJANGO_DEPLOY_ENV=prod` will load prod.py)
 
