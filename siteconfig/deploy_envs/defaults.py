@@ -58,7 +58,7 @@ INSTALLED_APPS = [
     'sekizai',
 ]
 
-MIDDLEWARE_CLASSES = [
+MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     # let user browser select the language by session, cookie or accept-language header defaulting to LANGUAGE_CODE
