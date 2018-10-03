@@ -1,10 +1,10 @@
 """
 Project's URL Configuration
 """
-from django.conf.urls import url, include
+from django.urls import path, include
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'', include('compass.urls')),
+    path('admin/', admin.site.urls),
+    path('', include('compass.urls')),
 ]
